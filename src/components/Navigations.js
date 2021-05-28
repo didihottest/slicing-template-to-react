@@ -3,7 +3,7 @@ import navbarLogo from './Navigations/navbar-logo.svg'
 
 const Navigations = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <NavbarContainer logo={navbarLogo}/>
     </nav>
   )
